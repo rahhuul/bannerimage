@@ -1,0 +1,204 @@
+/* Side Block Carousel */
+
+.side-block{
+    width: 70%;
+    float: left;
+}
+
+.side-block .owl-stage-outer{
+	width: 100%;
+    float: left;
+    height: 100%;
+}
+			
+img {
+    vertical-align: middle;
+}
+
+#type2 {
+    height: 100%;
+}
+
+.side-block .owl-item	 img {
+    transform-style: initial;
+    height: 100%;
+    object-fit: cover;
+}
+
+.side-nav{
+    width: 30%;
+    float: left;
+    height: 100%;
+}
+
+.side-nav ul {
+    list-style: outside none none;
+    height: 100%;
+}
+
+.side-nav ul li {
+    height: 120px;
+    width: 100%; cursor: pointer;
+}
+
+.side-nav .owl-dot > img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+/*
+.side-block .owl-thumbs {
+    position: absolute;
+    width: 30%;
+	height: 100%;
+    display: inline-block;
+    float: left;
+    margin-left: 5px;
+    overflow: hidden;
+}
+
+.side-block .owl-thumbs img {
+    height: 130px;
+    width: 100%;
+}
+
+.side-block .owl-thumb-item {
+	margin-bottom: 5px;
+    width: 100%;
+    height: 80px;
+    border: none;
+    background: none;
+    padding: 0;
+    opacity: 1;
+}
+
+.side-block .owl-thumb-item.active {
+    opacity: 1;
+}
+*/
+.side-block .label {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #0a6cff;
+    color: white;
+    padding: 10px 20px;
+    z-index: 5;
+    text-align: center;
+}
+
+/* Side Block Carousel */
+/* Tabbed Banner */
+
+#type3 {
+    height: 100%;
+}
+.tab-block .owl-item img {
+    transform-style: initial;
+    height: 100%;
+    object-fit: cover;
+}
+.tab-block .owl-stage-outer {
+    width: 100%;
+    float: left;
+    height: 100%;
+}
+.tab-block .owl-thumb-item img {
+    width: 100%;
+    height: 100%;
+}
+.owl-carousel.tab-block.owl-theme.owl-loaded.owl-drag {
+    height: 85%;
+}
+.banner-nav {
+    float: left;
+    height: 15%;
+    width: 99%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.banner-nav .owl-dots {
+    height: 100% !important;
+    margin: 0;
+    width: 100%;
+}
+
+.banner-nav li.owl-dot {
+    display: inline-block;
+    height: 100%;
+    padding: 15px 35px; cursor: pointer;
+}
+/*
+.tab-block .owl-thumbs {
+   white-space: nowrap;
+   max-width: 100%;
+   width: 100%;
+   height: 30%;
+   overflow: hidden;
+}
+
+.tab-block .owl-thumb-item {
+    padding: 0;
+    display: inline-block;
+    width:180px;
+    height: 100%;
+    opacity:1;
+    
+}
+.tab-block .owl-thumb-item.active {
+    padding: 0;
+    display: inline-block;
+    width:180px;
+    height: 100%;
+    opacity: 1;
+}
+*/
+
+
+.tab-block .label {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #0a6cff;
+    color: white;
+    padding: 10px 20px;
+    z-index: 5;
+    text-align: center;
+}
+/* Tabbed Banner */
+/* Default Banner */
+
+.default-banner {
+    height: 100%;
+}
+
+.default-banner .owl-stage-outer {
+    height: 100%;
+}
+
+/* Default Banner */
+
+.banner-carousel .item{
+  padding:3px;
+}
+.banner-carousel .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.banner-image{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 420px;
+}
+
+.carousel-wrap {
+    background:#44B863;
+    width:100%;
+}
+
+.owl-carousel .item-video{
+    height:420px;
+}
